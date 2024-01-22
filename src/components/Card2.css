@@ -11,7 +11,7 @@
   }
   
   .card {
-    background-color: #fff;
+    background-color: rgb(55, 158, 55);
     box-shadow: 10px 10px 40px 2px rgba(128, 128, 128, 0.4);
     display: inline-block;
     width: 295px;
@@ -78,7 +78,7 @@
   }
   .card .card-description .about-place .place-speciality, .card .card-description .about-place .per-person {
     font-size: 14px;
-    color: rgba(128, 128, 128, 0.97);
+    color: rgba(245, 239, 239, 0.97);
   }
   .card .card-description .about-place .rating {
     font-size: 14px;
