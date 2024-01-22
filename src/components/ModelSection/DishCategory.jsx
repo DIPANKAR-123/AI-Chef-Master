@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React,{useState} from 'react'
+import React from 'react'
 import { CategoryDishes } from '../../Data/CategoryDishes'
 import { ModelData } from '../../Data/ModelData'
 import { NavLink } from 'react-router-dom';
@@ -8,25 +8,6 @@ import "./DishCategory.css"
 
 
 const DishCategory = () => {
-
-  // const [transforms, setTransforms] = useState({ rotateX: 0, rotateY: 0 });
-
-  // const handleMouseOver = (event) => {
-  //   const coords = event.target.getBoundingClientRect();
-  //   const centerX = coords.x + coords.width / 2;
-  //   const centerY = coords.y + coords.height / 2;
-  //   const rotateY = Math.atan((event.clientX - centerX) / (coords.height / 2));
-  //   const rotateX = Math.atan((event.clientY - centerY) / (coords.width / 2));
-  //   const rotateXdeg = rotateX * (180 / Math.PI);
-  //   const rotateYdeg = rotateY * (180 / Math.PI);
-  //   setTransforms({ rotateX: rotateXdeg * 0.8, rotateY: rotateYdeg * 0.3 });
-  // };
-
-  // const handleMouseLeave = () => {
-  //   setTransforms({ rotateX: 0, rotateY: 0 });
-  // };
-
-
   return (
     <>
   
@@ -55,9 +36,6 @@ const DishCategory = () => {
           </ul>
         </div>
 
-       
-
-
         {/* model section  */}
         <div className='flex items-center justify-center pt-8    '>
          {
@@ -85,7 +63,7 @@ const DishCategory = () => {
          
 
          {/* card 2 testing  */}
-         <div className="card ">
+         <div className="cards">
             <div className="card__image">
             </div>
             <div className="card__info mt-6">
@@ -106,7 +84,7 @@ const DishCategory = () => {
         
         </div>
         <div className='text-white flex justify-around mt-6 mr-6'>
-        <button class="border  h-4 flex items-center justify-center">
+        <button class="border  h-4 flex items-center justify-center ml-16">
           <a href="#_" class="relative inline-block text-lg group">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
               <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -126,7 +104,7 @@ const DishCategory = () => {
             <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
           </a>
         </button>
-        <button class="border  h-4 flex items-center justify-center">
+        <button class="border  h-4 flex items-center justify-center mr-4">
           <a href="#_" class="relative inline-block text-lg group">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
               <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -136,7 +114,7 @@ const DishCategory = () => {
             <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
           </a>
         </button>
-            <button class="border mr-3  h-4 flex items-center justify-center">
+            <button class="border h-4 flex items-center justify-center mr-16">
           <a href="#_" class="relative inline-block text-lg group">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
               <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
